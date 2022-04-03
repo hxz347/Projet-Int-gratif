@@ -54,25 +54,42 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipe</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>QCM-continants</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="amerique.html"><span>Amérique du Nord</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">QCM-A</a></li>
+                  <li><a href="#">QCM-C</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li class="dropdown"><a href="asie.html"><span>Asie</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="chine.html">QCM-CHINE</a></li>
+                  <li><a href="#">QCM-Arabie saoudite</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="amerique.html"><span>Afrique</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">QCM-A</a></li>
+                  <li><a href="#">QCM-C</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="amerique.html"><span>Europe</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">QCM-A</a></li>
+                  <li><a href="#">QCM-C</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="amerique.html"><span>Amérique du Sud</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">QCM-A</a></li>
+                  <li><a href="#">QCM-C</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contacts</a></li>
-          <li><a class="getstarted scrollto" href="#about">Connexion</a></li>
+          <li><a class="getstarted scrollto" href="login.html">Connexion</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -186,9 +203,9 @@
       <map name="Map">
       <area shape="poly" coords="11,55,49,28,192,6,267,11,247,29,209,50,184,75,139,138,109,158,66,138" href="amerique.html" title="Amérique du Nord">
       <area shape="poly" coords="106,161,110,194,145,290,169,301,200,229,209,192,170,168,150,157,132,150" href="#" title="Amérique du Sud">
-      <area shape="poly" coords="266,103,243,130,242,150,258,169,291,171,297,216,313,256,330,254,368,237,381,207,379,154,362,155,342,119,341,113,318,108,294,99" href="#" title="Afrique">
+      <area shape="poly" coords="266,103,243,130,242,150,258,169,291,171,297,216,313,256,330,254,368,237,381,207,379,154,362,155,342,119,341,113,318,108,294,99" href="afrique.html" title="Afrique">
       <area shape="poly" coords="99,357,65,343,144,332,190,316,205,336,268,328,364,321,391,325,488,319,523,331,523,358" href="#" title="Antarctique">
-      <area shape="poly" coords="560,181,560,202,540,205,500,228,496,257,544,276,578,284,597,276,582,190" href="#" title="Océanie">
+      <area shape="poly" coords="560,181,560,202,540,205,500,228,496,257,544,276,578,284,597,276,582,190" href="oceanie.html" title="Océanie">
       <area shape="poly" coords="245,37,262,67,260,85,262,99,276,98,308,96,325,97,327,90,335,77,341,81,349,72,324,51,328,45,324,29,316,11,299,14" href="#" title="Europe">
       <area shape="poly" coords="327,30,351,12,411,13,567,38,546,102,531,162,559,183,558,198,518,205,485,202,431,163,395,131,386,143,364,151,344,116,343,100,328,101,335,81,347,82,352,72,328,50,333,43" href="asie.html" title="Asie">
       </map>
@@ -605,8 +622,8 @@
           <div class="col-lg-6">
             <h4>S'inscrire à notre infolettre</h4>
           
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="s'inscrire">
+            <form action="inscrirInfo.php" method="post">
+              <input type="email" name="email"value="" placeholder="1234567@gmail.com" pattern="^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"><input type="submit" value="s'inscrire">
             </form>
           </div>
         </div>
